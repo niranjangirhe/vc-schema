@@ -2,7 +2,7 @@
     "$metadata": {
         "type": "i",
         "uris": {
-            "jsonLdContext": "ipfs://QmVZaWqiQKq3Wsfha3gMFLuHjhbSacqBArVPUw4r9or2Ft"
+            "jsonLdContext": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/i/i.jsonld"
         },
         "version": "i"
     },
