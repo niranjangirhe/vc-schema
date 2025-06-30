@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "i": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "iden3-vocab": "urn:uuid:f7f0fefe-f814-436d-9e78-7d4c24ee1a12#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "I": {
+                        "@id": "iden3-vocab:I",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:26ea9459-5b9d-4ba5-9e61-e4d0c0060e7b"
+            }
+        }
+    ]
+}
