@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/KYCIntegerTest/KYCIntegerTest.jsonld"
         },
         "version": "1.0",
         "type": "KYCIntegerTest"
