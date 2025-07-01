@@ -17,7 +17,7 @@
         "id": 5307118594067144,
         "circuitId": "credentialAtomicQuerySigV2OnChain",
         "query": {
-          "allowedIssuers": [for testing submitResponse
+          "allowedIssuers": [
             "*"
           ],
           "context": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/KYCIntegerTest/KYCIntegerTest.jsonld",
