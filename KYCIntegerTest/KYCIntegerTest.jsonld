@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "KYCIntegerTest": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "iden3-vocab": "urn:uuid:e30bc207-d946-48a7-b2f2-7677b42905c5#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "birthday": {
+                        "@id": "iden3-vocab:birthday",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:a2cf22bb-1fb3-48de-9408-8f27c8a39803"
+            }
+        }
+    ]
+}
