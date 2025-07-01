@@ -1,29 +1,29 @@
 {
-  "id": "62bb894b-201a-4eb7-8324-bc4759defa7e",
+  "id": "09a18bea-a7b5-4c13-bd41-f9e53cdb5f76",
   "typ": "application/iden3comm-plain-json",
   "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
-  "thid": "62bb894b-201a-4eb7-8324-bc4759defa7e",
+  "thid": "09a18bea-a7b5-4c13-bd41-f9e53cdb5f76",
   "from": "did:iden3:polygon:amoy:x6x5sor7zpyefHwZu9RE4xiuRWBkq9xAEHxrKbKWb",
   "body": {
-    "reason": "for testing submitResponse",
+    "reason": "for testing purposes",
     "transaction_data": {
       "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
-      "method_id": "06c86a91",
+      "method_id": "0xade09fcd",
       "chain_id": 80002,
       "network": "polygon-amoy"
     },
     "scope": [
       {
-        "id": "7459937412355038",
+        "id": 5307118594067144,
         "circuitId": "credentialAtomicQuerySigV2OnChain",
         "query": {
-          "allowedIssuers": [
+          "allowedIssuers": [for testing submitResponse
             "*"
           ],
           "context": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/KYCIntegerTest/KYCIntegerTest.jsonld",
           "credentialSubject": {
             "birthday": {
-              "$eq": 17082000
+              "$eq": 17082002
             }
           },
           "type": "KYCIntegerTest"
