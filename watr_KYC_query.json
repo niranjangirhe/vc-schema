@@ -1,0 +1,34 @@
+{
+  "id": "e15bd209-d2a3-4b8f-a6bb-073f3960c076",
+  "typ": "application/iden3comm-plain-json",
+  "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+  "thid": "e15bd209-d2a3-4b8f-a6bb-073f3960c076",
+  "from": "did:watrid:watr:river:3wKPdAQXZB1bqHyfvMfTJTWWP5BCTHWwXY9gFXyjXx",
+  "body": {
+    "reason": "for testing purposes",
+    "transaction_data": {
+      "contract_address": "0x66fAAcE106Ccab1D08e9bAa1C6A610f96A875f44",
+      "method_id": "0xade09fcd",
+      "chain_id": 92870,
+      "network": "watr-river"
+    },
+    "scope": [
+      {
+        "id": 5662756397695197,
+        "circuitId": "credentialAtomicQuerySigV2OnChain",
+        "query": {
+          "allowedIssuers": [
+            "*"
+          ],
+          "context": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/KYCIntegerTest/KYCIntegerTest.jsonld",
+          "credentialSubject": {
+            "birthday": {
+              "$eq": 17082001
+            }
+          },
+          "type": "KYCIntegerTest"
+        }
+      }
+    ]
+  }
+}
