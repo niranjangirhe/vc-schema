@@ -1,0 +1,34 @@
+{
+  "id": "67e32e51-bf53-484f-bb4b-7c26eb215523",
+  "typ": "application/iden3comm-plain-json",
+  "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+  "thid": "67e32e51-bf53-484f-bb4b-7c26eb215523",
+  "from": "did:iden3:polygon:amoy:x6x5sor7zpyefHwZu9RE4xiuRWBkq9xAEHxrKbKWb",
+  "body": {
+    "reason": "for testing purposes",
+    "transaction_data": {
+      "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
+      "method_id": "0xade09fcd",
+      "chain_id": 80002,
+      "network": "polygon-amoy"
+    },
+    "scope": [
+      {
+        "id": 5662756397695197,
+        "circuitId": "credentialAtomicQuerySigV2OnChain",
+        "query": {
+          "allowedIssuers": [
+            "*"
+          ],
+          "context": "https://raw.githubusercontent.com/niranjangirhe/vc-schema/refs/heads/main/KYCIntegerTest/KYCIntegerTest.jsonld",
+          "credentialSubject": {
+            "birthday": {
+              "$eq": 17082001
+            }
+          },
+          "type": "KYCIntegerTest"
+        }
+      }
+    ]
+  }
+}
