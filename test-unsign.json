@@ -1,0 +1,5 @@
+{
+  "message": "Sign this message",
+  "nonce": "1y5lz1ggy5ynhe48932u7o",
+  "callback_url": "https://your-app.com/signature-callback"
+}
